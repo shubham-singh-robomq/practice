@@ -1,0 +1,41 @@
+site_name: Practice repo - shubham
+site_description: Practice repo for learning & time tracking
+site_author: Shubham Singh
+
+theme:
+  logo: assets/robomq.jpeg
+  font:
+    text: Nunito
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - search.share
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+repo_name: practice
+repo_url: https://github.com/shubham-singh-robomq/practice
+edit_uri: edit/main/docs/
+
+nav:
+  - Home: index.md
+  - Todo: todo.md
+  - Other: 
+    - bin-list: bin-list.md
+    - discussions: discussions.md
